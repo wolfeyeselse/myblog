@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wolfeyeselse.github.io/myblog/'
 locale = 'zh-cn'
 title = '终朝采蓝，不盈一襜'
 theme = "PaperMod"
@@ -51,5 +51,6 @@ theme = "PaperMod"
     [[params.profileMode.buttons]]
         name = "查看分类"
         url = "/categories/"
+
 
 
