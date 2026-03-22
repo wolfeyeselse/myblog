@@ -1,0 +1,7 @@
+- id: word_count
+  translation: "字数："
+
+
+
+- id: words
+  translation: " 字 ✍️"

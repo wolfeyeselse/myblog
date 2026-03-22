@@ -1,56 +1,63 @@
 baseURL = 'https://wolfeyeselse.github.io/myblog/'
-locale = 'zh-cn'
+languageCode = 'zh'
+defaultContentLanguage = 'zh'
 title = '终朝采蓝，不盈一襜'
 theme = "PaperMod"
+enableEmoji = true  # 移到顶部，确保生效
+hasCJKLanguage = true
 
 [[menu.main]]
     identifier = "posts"
     name = "文章"
-    url = "/posts/"
+    url = "posts/"
     weight = 10
 
 [[menu.main]]
     identifier = "weekly"
     name = "Weekly"
-    url = "/categories/weekly/"
+    url = "categories/weekly/"
     weight = 20
+
+[[menu.main]]
+    identifier = "yearly"
+    name = "Yearly"
+    url = "categories/yearly/"
+    weight = 21
 
 [[menu.main]]
     identifier = "tags"
     name = "标签"
-    url = "/tags/"
+    url = "tags/"
     weight = 30
 
 [params]
-    # 强制所有文章（包括第一篇）都使用统一的卡片布局
     showFullTextContent = false
 
-    # 强制第一篇文章也使用普通小卡片布局
-    disableSpecial1stPost = true
+    # 【重要】细节开关：确保不会隐藏字数和阅读时间
+    HideMetaDetail = false
+    
+    # 开启文章页面的元数据（日期、分类、阅读时间等）
+    ShowPostNavLinks = true
+   
+    ShowBreadCrumbs = true  # 建议开启面包屑导航，方便跳回分类
 
-    # 在这里添加自定义 CSS 来覆盖主题默认样式
+    disableSpecial1stPost = true
+    # 修正：PaperMod 的自定义 CSS 通常这样配置
     assets = { customCSS = ["css/custom.css"] }
 
 [params.profileMode]
     enabled = false
-    title = "TBOD" # 你的名字
-    subtitle = "eine der Zeiten des heimlichen Jahre" # 你的简短介绍
-    displayFullLangName = true
+    title = "TBOD"
+    subtitle = "eine der Zeiten des heimlichen Jahre"
     
-    # 头像设置
     [params.profileMode.avatar]
-        url = "/images/avatar.jpg" # 你的头像路径
+        url = "images/avatar.jpg"
         alt = "avatar"
-        target = "_blank"
     
-    # 这里的按钮可以引导用户去分类或文章列表
     [[params.profileMode.buttons]]
         name = "阅读文章"
-        url = "/posts/"
+        url = "posts/"
 
     [[params.profileMode.buttons]]
         name = "查看分类"
-        url = "/categories/"
-
-
-
+        url = "categories/"
