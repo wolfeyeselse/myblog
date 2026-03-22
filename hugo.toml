@@ -1,0 +1,55 @@
+baseURL = 'https://example.org/'
+locale = 'zh-cn'
+title = '终朝采蓝，不盈一襜'
+theme = "PaperMod"
+
+[[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "weekly"
+    name = "Weekly"
+    url = "/categories/weekly/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+
+[params]
+    # 强制所有文章（包括第一篇）都使用统一的卡片布局
+    showFullTextContent = false
+
+    # 强制第一篇文章也使用普通小卡片布局
+    disableSpecial1stPost = true
+
+    # 在这里添加自定义 CSS 来覆盖主题默认样式
+    assets = { customCSS = ["css/custom.css"] }
+
+[params.profileMode]
+    enabled = false
+    title = "TBOD" # 你的名字
+    subtitle = "eine der Zeiten des heimlichen Jahre" # 你的简短介绍
+    displayFullLangName = true
+    
+    # 头像设置
+    [params.profileMode.avatar]
+        url = "/images/avatar.jpg" # 你的头像路径
+        alt = "avatar"
+        target = "_blank"
+    
+    # 这里的按钮可以引导用户去分类或文章列表
+    [[params.profileMode.buttons]]
+        name = "阅读文章"
+        url = "/posts/"
+
+    [[params.profileMode.buttons]]
+        name = "查看分类"
+        url = "/categories/"
+
+

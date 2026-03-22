@@ -1,0 +1,10 @@
+/* 强制缩小文章详情页标题 */
+.post-single .post-title {
+    font-size: 24px !important; 
+    margin-bottom: 10px !important;
+}
+
+/* 强制缩小列表页标题 */
+.post-entry .entry-header h2 {
+    font-size: 20px !important;
+}
