@@ -1,4 +1,4 @@
-baseURL = 'https://wolfeyeselse.github.io/myblog/'
+baseURL = 'https://www.unrealcity.ca/'
 languageCode = 'zh'
 defaultContentLanguage = 'zh'
 title = '终朝采蓝，不盈一襜'
@@ -44,6 +44,10 @@ hasCJKLanguage = true
     disableSpecial1stPost = true
     # 修正：PaperMod 的自定义 CSS 通常这样配置
     assets = { customCSS = ["css/custom.css"] }
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [params.profileMode]
     enabled = false
