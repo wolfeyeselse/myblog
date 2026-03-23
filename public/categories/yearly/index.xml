@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yearly on 终朝采蓝，不盈一襜</title>
-    <link>http://localhost:1313/myblog/categories/yearly/</link>
+    <link>http://localhost:1313/categories/yearly/</link>
     <description>Recent content in Yearly on 终朝采蓝，不盈一襜</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 20 Dec 2025 14:10:41 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/categories/yearly/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/yearly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025读书总结</title>
-      <link>http://localhost:1313/myblog/posts/2025-end/</link>
+      <link>http://localhost:1313/posts/2025-end/</link>
       <pubDate>Sat, 20 Dec 2025 14:10:41 -0700</pubDate>
-      <guid>http://localhost:1313/myblog/posts/2025-end/</guid>
+      <guid>http://localhost:1313/posts/2025-end/</guid>
       <description>&lt;p&gt;感觉写年度总结的时候，每次都要下特别大的力气，拖到一月二月才凑凑合合写一点，而且也并没有什么趣味。今年感觉可以稍微改变一下，先从最简单的今年读了多少书来写。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>影 on 终朝采蓝，不盈一襜</title>
+    <link>http://localhost:1313/tags/%E5%BD%B1/</link>
+    <description>Recent content in 影 on 终朝采蓝，不盈一襜</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 22 Mar 2026 11:40:32 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>试着建了新的blog</title>
+      <link>http://localhost:1313/posts/26-03-22-blog/</link>
+      <pubDate>Sun, 22 Mar 2026 11:40:32 -0700</pubDate>
+      <guid>http://localhost:1313/posts/26-03-22-blog/</guid>
+      <description>&lt;p&gt;##建站：做AI和VS Code之间的搬运工&lt;/p&gt;
+&lt;p&gt;虽然想要用Hugo搭博客很久了，但是一直没有下手，原因是从装Homebrew就装不上去。为啥会这样呢，我怎么也搞不明白，之前Weebly的blog也至少能用，对于我这个技术上基本上只通半窍的小白而言就自然畏难优先了，主打一个凑合。最近Weebly的blog访问似乎出了问题，于是我决定再来挑战一下（划掉）我自己（划掉）AI的技术水平。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,48 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on 终朝采蓝，不盈一襜</title>
-    <link>http://localhost:1313/myblog/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 终朝采蓝，不盈一襜</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 15 Mar 2026 11:40:32 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Mar 2026 11:40:32 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>试着建了新的blog</title>
+      <link>http://localhost:1313/posts/26-03-22-blog/</link>
+      <pubDate>Sun, 22 Mar 2026 11:40:32 -0700</pubDate>
+      <guid>http://localhost:1313/posts/26-03-22-blog/</guid>
+      <description>&lt;p&gt;##建站：做AI和VS Code之间的搬运工&lt;/p&gt;
+&lt;p&gt;虽然想要用Hugo搭博客很久了，但是一直没有下手，原因是从装Homebrew就装不上去。为啥会这样呢，我怎么也搞不明白，之前Weebly的blog也至少能用，对于我这个技术上基本上只通半窍的小白而言就自然畏难优先了，主打一个凑合。最近Weebly的blog访问似乎出了问题，于是我决定再来挑战一下（划掉）我自己（划掉）AI的技术水平。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>周六的时候去买了花</title>
-      <link>http://localhost:1313/myblog/posts/26-3-15-blog/</link>
+      <link>http://localhost:1313/posts/26-03-15-blog/</link>
       <pubDate>Sun, 15 Mar 2026 11:40:32 -0700</pubDate>
-      <guid>http://localhost:1313/myblog/posts/26-3-15-blog/</guid>
+      <guid>http://localhost:1313/posts/26-03-15-blog/</guid>
       <description>&lt;p&gt;在Trade Joe一进门的地方，专门摆了一个台子，大大的看板写着”Spring“，围着大把大把的郁金香、洋水仙、鸢尾。我挑了一束郁金香，一束鸢尾，又零零杂杂买了点儿小东西。结账的时候小哥夸了我的购物袋，说正好花儿放进去还可以伸出来，多方便。我说是呀。放眼看去没有一个柜台大家不small talk一会儿的，和纽约的气氛不太一样，感觉这家地方更大一点，大家聊天的时候也更放松一点儿。&lt;/p&gt;</description>
     </item>
     <item>
       <title>漫长的恢复期</title>
-      <link>http://localhost:1313/myblog/posts/26-2-2-blog/</link>
+      <link>http://localhost:1313/posts/26-02-02-blog/</link>
       <pubDate>Thu, 26 Feb 2026 11:45:28 -0700</pubDate>
-      <guid>http://localhost:1313/myblog/posts/26-2-2-blog/</guid>
+      <guid>http://localhost:1313/posts/26-02-02-blog/</guid>
       <description>&lt;p&gt;过去的一周好像陷入一个漫长的恢复期里，疲惫，但是不知道在疲惫什么；休息，好像也没有多么休息过来。
 继续听Joan Didion。听完了《Blue Night》又继续听《Note to John》。这其实并不是Didion写来准备出版的书，而是她从1999年到2001年之间因为抑郁去看心理医生而写下来的访谈笔记，是写给她丈夫看的。这些笔记在她死后被发现，整理在一只文件夹里，和它们一起发现的还有电脑的密码，以及圣诞聚会的邀请名单。很难说这是“应该”被出版的作品或者意图以一种作品的方式而出现，但是它最终还是作为书籍出版了。虽然在对于身后遗作的处理上有一些伦理上的疑惑，但是我个人觉得Note to John是对于她前面两本的补充，是让读到的人理解为什么《Blue Night》是这样的，《A Year of Magical Thinking》是这样的——比如里面提到，在他们在加州的时候喝酒是一种聚会时候自然而然的事情，Didion说”那时我们还不知道“，不知道什么？读完Note to John才意识到她的养女Quintana长期为alcoholism所苦，然而无论是心理治疗还是AA互助似乎都不能让她摆脱成瘾问题，而饮酒过度最后也摧毁了她的身体健康，使她在面对疾病的时候格外脆弱。在Note to John的最后Didion记到，她正在每一天每一天地杀死自己。这在某种意义上一语成谶。&lt;/p&gt;</description>
     </item>
     <item>
       <title>那些不会再去的店</title>
-      <link>http://localhost:1313/myblog/posts/26-1-26-blog/</link>
+      <link>http://localhost:1313/posts/26-01-26-blog/</link>
       <pubDate>Mon, 26 Jan 2026 11:47:55 -0700</pubDate>
-      <guid>http://localhost:1313/myblog/posts/26-1-26-blog/</guid>
+      <guid>http://localhost:1313/posts/26-01-26-blog/</guid>
       <description>&lt;p&gt;之前在纽约求学的短暂时间里，活动范围极其狭窄，日常并不会离开四家超市构成的小小四边形：14 St的山田屋，Cooper Union附近的H Mart， Spring St的Trade Joe和Houston St上的Whole foods。但是在这个小四边形的范围内，也有几家我特别喜欢的店。一个是开在八街上的云南米线店，如果饿了就点一碗分量很大的过桥米线，如果不太饿也有分量小点；一个是就在宿舍附近的Debutea，喜欢他家的桂花乌龙；还有一个是开在11街附近的大户屋。要说多好吃，也未见得有多么好吃，关键是走路可及的便利。
 下半年搬到LA，仍然继续收到Debutea和大户屋的推广信息。前者：秋季奶茶上新，冬季奶茶上新，玄米茶季节到来。后者：你还有多少积分没用，新的菜单，新的推广，你的积分将要过期。
 可能应该可以一键退订的，但是留在那里就仿佛还有一个小小的残片留在那里，看到时候想：啊，这家店我去过的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>认识树木</title>
-      <link>http://localhost:1313/myblog/posts/26-1-12-blog/</link>
+      <link>http://localhost:1313/posts/26-01-12-blog/</link>
       <pubDate>Mon, 12 Jan 2026 11:51:04 -0700</pubDate>
-      <guid>http://localhost:1313/myblog/posts/26-1-12-blog/</guid>
+      <guid>http://localhost:1313/posts/26-01-12-blog/</guid>
       <description>&lt;p&gt;最近固定下来，周六在家休息/无所事事一天，周日上午出门买菜办事，下午在家写手账。不过这周不知为什么特别累，周六久违地睡到了九点（我一般的生物钟八点前就会醒），不知道是新年的疲惫积累到了这个时候，还是这周努力伸手要活这件事实在是step out of my comfort zone，积累的心理压力稍微高了那么一点。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>冬天的被窝</title>
+      <link>http://localhost:1313/posts/26-01-05-blog/</link>
+      <pubDate>Mon, 05 Jan 2026 11:51:04 -0700</pubDate>
+      <guid>http://localhost:1313/posts/26-01-05-blog/</guid>
+      <description>&lt;p&gt;久违的晴天。
+自打1月1日从温哥华回到洛杉矶，天气就没有彻底放晴过。今天早上也是，刚刚享受了两个小时的晴天，天上就又开始出现了大朵大朵棉花糖一样的云朵。
+希望今天下午不要下雨。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>2025读书总结</title>
-      <link>http://localhost:1313/myblog/posts/2025-end/</link>
+      <link>http://localhost:1313/posts/2025-end/</link>
       <pubDate>Sat, 20 Dec 2025 14:10:41 -0700</pubDate>
-      <guid>http://localhost:1313/myblog/posts/2025-end/</guid>
+      <guid>http://localhost:1313/posts/2025-end/</guid>
       <description>&lt;p&gt;感觉写年度总结的时候，每次都要下特别大的力气，拖到一月二月才凑凑合合写一点，而且也并没有什么趣味。今年感觉可以稍微改变一下，先从最简单的今年读了多少书来写。&lt;/p&gt;</description>
     </item>
   </channel>
