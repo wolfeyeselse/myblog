@@ -6,8 +6,22 @@
     <description>Recent content in Tags on 终朝采蓝，不盈一襜</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 22 Mar 2026 11:40:32 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 17:40:32 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>食</title>
+      <link>http://localhost:1313/tags/%E9%A3%9F/</link>
+      <pubDate>Sun, 29 Mar 2026 17:40:32 -0700</pubDate>
+      <guid>http://localhost:1313/tags/%E9%A3%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>杂</title>
+      <link>http://localhost:1313/tags/%E6%9D%82/</link>
+      <pubDate>Sun, 29 Mar 2026 17:40:32 -0700</pubDate>
+      <guid>http://localhost:1313/tags/%E6%9D%82/</guid>
+      <description></description>
+    </item>
     <item>
       <title>书</title>
       <link>http://localhost:1313/tags/%E4%B9%A6/</link>
@@ -20,13 +34,6 @@
       <link>http://localhost:1313/tags/%E5%BD%B1/</link>
       <pubDate>Sun, 22 Mar 2026 11:40:32 -0700</pubDate>
       <guid>http://localhost:1313/tags/%E5%BD%B1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>杂</title>
-      <link>http://localhost:1313/tags/%E6%9D%82/</link>
-      <pubDate>Sun, 22 Mar 2026 11:40:32 -0700</pubDate>
-      <guid>http://localhost:1313/tags/%E6%9D%82/</guid>
       <description></description>
     </item>
   </channel>
