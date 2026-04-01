@@ -8,3 +8,142 @@
 .post-entry .entry-header h2 {
     font-size: 20px !important;
 }
+
+
+/* 针对全局正文的字体设置 */
+body {
+    /* 优先使用系统自带的衬线字体，营造纸质书的感觉 */
+    font-family: "Baskerville", "Times New Roman", "Source Han Serif SC", "Source Han Serif CN", "Noto Serif CJK SC", "Songti SC", "SimSun", serif;
+    
+    /* 适度调节字间距和行高，增加可读性 */
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    color: #333; /* 稍微柔和的黑色 */
+}
+
+/* 针对文章标题和正文的特殊优化 */
+.post-content, .post-title {
+    /* 确保标题也保持衬线风格 */
+    font-family: inherit;
+}
+
+/* 针对代码块等技术内容，保持等宽字体 */
+code, pre {
+    font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+}
+
+/* ==============================================
+   莫兰迪·深海灰蓝 (Deep Sea Morandi)
+   ============================================== */
+
+:root {
+    /* 全局背景：极淡的冷灰色，透着一点点蓝 */
+    --theme: #eef1f2;
+    
+    /* 内容区域背景：非常浅的灰蓝白 */
+    --entry: #f7f9fa;
+    
+    /* 主文字：深蓝灰色，比纯黑更高级 */
+    --primary: #3c4a55;
+    
+    /* 次要文字：中等灰蓝 */
+    --secondary: #70818e;
+    
+    /* 边框：淡淡的蓝灰分割线 */
+    --border: #d1d9e0;
+
+    /* == 关键交互色（链接、按钮等） == */
+    /* 核心灰蓝色 */
+    --tertiary: #678197;
+    /* 悬停时的深灰蓝 */
+    --hover: #4e6479;
+}
+
+/* 深色模式同步调整 */
+.dark {
+    --theme: #252d35;
+    --entry: #2c363f;
+    --primary: #cbd5e0;
+    --secondary: #94a3b8;
+    --border: #3e4c59;
+    --tertiary: #84a0b8;
+    --hover: #a3bfd9;
+}
+
+/* ==============================================
+   文章内部标题 (Post Headers) 样式美化
+   ============================================== */
+
+/* 针对正文内的 H1, H2, H3 等标题进行变色处理 */
+.post-content h1, 
+.post-content h2, 
+.post-content h3 {
+    /* 使用稍深一点的莫兰迪蓝，作为点缀 */
+    color: #516a81;
+    /* 增加一点字母间距，显得更舒展 */
+    letter-spacing: 0.05em;
+    /* 底部加一条若有若无的细线，增加层次感 */
+    border-bottom: 1px solid rgba(103, 129, 151, 0.1);
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+}
+
+/* 鼠标悬停在标题上时，颜色稍微加深，增加交互感 */
+.post-content h2:hover, 
+.post-content h3:hover {
+    color: #3e5266;
+    transition: color 0.3s ease;
+}
+
+/* 针对具体的 H2 (通常是文章主要小节标题) */
+.post-content h2 {
+    font-size: 1.4em; /* 配合你之前调小了正文字体，标题也要相应紧凑 */
+}
+
+/* 针对具体的 H3 */
+.post-content h3 {
+    font-size: 1.2em;
+    /* 前面加一个小符号作为装饰，可选 */
+}
+.post-content h3::before {
+    content: "◇ ";
+    font-size: 0.8em;
+    vertical-align: middle;
+    color: var(--tertiary);
+    margin-right: 4px;
+}
+
+/* 仅针对文章正文页面的字体大小调整 */
+.post-content {
+    font-size: 16px;      /* 默认通常是 18px，调小到 16px 会显得更精细 */
+    line-height: 1.7;    /* 稍微收紧行高，配合小字体更协调 */
+}
+
+/* 如果你希望文章内的列表、引用等也同步显得精致 */
+.post-content p {
+    margin-bottom: 15px; /* 适当缩小段落间距 */
+}
+
+/* 针对移动端的小屏幕优化，防止字体过小影响阅读 */
+@media screen and (max-width: 768px) {
+    .post-content {
+        font-size: 15px;  /* 手机端建议不低于 15px */
+    }
+}
+
+/* 全局字数统计样式 */
+.footer .busuanzi-footer {
+    margin-bottom: 8px;
+    font-family: inherit; /* 继承你优雅的衬线体 */
+    font-size: 13px;      /* 稍微小一点，显得精致 */
+    color: var(--secondary); /* 使用莫兰迪次要文字颜色 */
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+/* 在字数前后加一点装饰感 */
+.footer .busuanzi-footer::before,
+.footer .busuanzi-footer::after {
+    content: " — ";
+    color: var(--border);
+}

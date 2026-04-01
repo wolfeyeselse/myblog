@@ -1,0 +1,20 @@
+{{- if not (.Param "hideFooter") }}
+<footer class="footer">
+    {{- $totalWords := 0 -}}
+    {{- range (where .Site.RegularPages "Section" "posts") -}}
+        {{- $totalWords = add $totalWords .WordCount -}}
+    {{- end -}}
+    
+    <div class="busuanzi-footer">
+        <span id="busuanzi_container_site_pv">
+            一共采撷了 {{ $totalWords }} 字
+        </span>
+    </div>
+
+    {{- if .Site.Copyright }}
+    <span>{{ .Site.Copyright | markdownify }}</span>
+    {{- else }}
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
+    {{- end }}
+</footer>
+{{- end }}
