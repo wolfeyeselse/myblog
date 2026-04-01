@@ -147,3 +147,27 @@ code, pre {
     content: " — ";
     color: var(--border);
 }
+
+/* 让分类页面的标题（如 Weekly）更优雅 */
+.page-header h1 {
+    font-size: 24px;       /* 调小字号，默认通常是 30px+ */
+    font-weight: 500;       /* 减轻字重，不要太粗 */
+    letter-spacing: 0.5px;  /* 增加一点字母间距，更有呼吸感 */
+    margin-bottom: 15px;    /* 缩小与下方列表的距离 */
+    color: var(--primary);  /* 确保颜色跟随主题设置 */
+}
+
+/* 调整面包屑导航 (» Categories) 的大小 */
+.breadcrumbs {
+    font-size: 10px;        /* 面包屑导航调小 */
+    margin-bottom: 5px;
+    opacity: 0.7;           /* 降低亮度，让视觉重心留在标题上 */
+}
+
+/* 调整分类描述文字（如果有的话） */
+.post-description {
+    font-size: 14px;
+    color: var(--secondary);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}

@@ -13,6 +13,12 @@ hasCJKLanguage = true
     weight = 10
 
 [[menu.main]]
+    identifier = "memos"
+    name = "Moments"
+    url = "memos/"
+    weight = 15
+
+[[menu.main]]
     identifier = "weekly"
     name = "Weekly"
     url = "categories/weekly/"

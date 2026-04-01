@@ -10,7 +10,7 @@
 <meta name="description" content="最近固定下来，周六在家休息/无所事事一天，周日上午出门买菜办事，下午在家写手账。不过这周不知为什么特别累，周六久违地睡到了九点（我一般的生物钟八点前就会醒），不知道是新年的疲惫积累到了这个时候，还是这周努力伸手要活这件事实在是step out of my comfort zone，积累的心理压力稍微高了那么一点。">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/26-01-12-blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.34dc8ae298b4f3dc1772a2c1e830d49093d99d092d8f4160ee3cb6bc85e7030c.css" integrity="sha256-NNyK4pi089wXcqLB6DDUkJPZnQktj0Fg7jy2vIXnAww=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6272daae0e368ffdd9be8dab4c98dac05400ef038bc0341a28dcb5d312832307.css" integrity="sha256-YnLarg42j/3Zvo2rTJjawFQA7wOLwDQaKNy10xKDIwc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -107,6 +107,11 @@
                 </a>
             </li>
             <li>
+                <a href="http://localhost:1313/memos/" title="Moments">
+                    <span>Moments</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/categories/weekly/" title="Weekly">
                     <span>Weekly</span>
                 </a>
@@ -179,82 +184,11 @@
   </footer>
 </article>
     </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">终朝采蓝，不盈一襜</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
+    <footer class="footer"><div class="busuanzi-footer">
+        <span>一共记下了
+             13467 字</span>
+    </div>
+    <span>&copy; 2026 <a href="http://localhost:1313/">终朝采蓝，不盈一襜</a></span>
+</footer></body>
 
 </html>

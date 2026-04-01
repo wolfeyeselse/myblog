@@ -1,0 +1,122 @@
+{{- define "main" }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+</header>
+
+<div class="memos-grid">
+    {{- range (where .Site.RegularPages "Section" "memos").ByDate.Reverse }}
+    <article class="memo-tile">
+        <a href="{{ .Permalink }}" class="memo-link">
+            <div class="memo-inner">
+                <div class="memo-text">
+                    {{ .Content }}
+                </div>
+                <div class="memo-footer">
+                    <time>{{ .Date.Format "2006-01-02" }}</time>
+                </div>
+            </div>
+        </a>
+    </article>
+    {{- end }}
+</div>
+
+
+<style>
+/* --- Memos 真·瀑布流布局 --- */
+
+.memos-grid {
+    /* 核心：开启多栏布局 */
+    column-count: 3; 
+    column-gap: 20px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.memo-tile {
+    /* 核心：防止卡片被分页切断 */
+    display: inline-block; /* 必须是 inline-block 或 block */
+    width: 100%;           /* 占据一栏的宽度 */
+    break-inside: avoid;   /* 现代浏览器防切断属性 */
+    margin-bottom: 20px;   /* 卡片的垂直间距 */
+    
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all 0.25s ease;
+}
+
+/* 移除之前可能存在的限制 */
+.memo-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--primary);
+    white-space: pre-wrap;
+    /* 如果要瀑布流不等高，请删除或注释掉下面这几行截断逻辑 */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 7; 
+    -webkit-box-orient: vertical;
+    overflow: hidden; */
+}
+
+/* 悬停效果保持 */
+.memo-tile:hover {
+    transform: translateY(-5px);
+    border-color: var(--tertiary);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.memo-inner {
+    padding: 18px;
+}
+
+.memo-footer {
+    margin-top: 15px;
+    font-size: 11px;
+    color: var(--secondary);
+    text-align: right;
+    border-top: 1px dashed var(--border);
+    padding-top: 8px;
+    opacity: 0.6;
+}
+
+.memo-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--primary);
+    /* 既然已经有了 pre-wrap，我们要消除自动生成的 p 标签带来的额外边距 */
+}
+
+/* 针对内容区的所有子元素进行空白挤压 */
+.memo-text * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+/* 仅保留段落之间的间距 */
+.memo-text * + * {
+    margin-top: 10px !important; 
+}
+
+/* 如果你的正文里有换行，这个属性非常关键 */
+.memo-text {
+    display: block;
+    white-space: pre-wrap; /* 保持 flomo 的原始换行 */
+    word-break: break-word;
+}
+
+/* 响应式：屏幕变窄时减少列数 */
+@media screen and (max-width: 1000px) {
+    .memos-grid {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .memos-grid {
+        column-count: 1;
+    }
+}
+</style>
+{{- end }}
