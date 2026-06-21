@@ -71,3 +71,8 @@ hasCJKLanguage = true
     [[params.profileMode.buttons]]
         name = "查看分类"
         url = "categories/"
+
+        [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

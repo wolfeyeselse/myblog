@@ -1,0 +1,4 @@
+<details>
+  <summary><strong>{{ .Get "title" | default "点击展开/折叠" }}</strong></summary>
+  {{ .Inner | markdownify }}
+</details>
